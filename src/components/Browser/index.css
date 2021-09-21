@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #3367d6;
+  padding: 10px;
+  height: 8vh;
+}
+
+.input {
+  outline: none;
+  color: rgb(240, 235, 235);
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+}
+
+.input-container {
+  background-color: #2850a7;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-logo {
+  margin-right: 2px;
+}
+
+.search-logo {
+  width: 24px;
+  height: 20px;
+}
+
+.all-list {
+  padding-inline-start: 0px;
+  list-style-type: none;
+  box-shadow: 0px 4px 20px grey;
+  padding: 15px;
+}
+
+.empty-view {
+  font-family: 'Roboto';
+  font-size: 25px;
+  text-align: center;
+}
+
+.list-container {
+  padding: 15px;
+}
